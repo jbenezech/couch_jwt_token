@@ -1,0 +1,9 @@
+%% -*- mode: erlang -*-
+{application, couch_jwt_token, [
+    {description, "couch_jwt_token - validate given User credentials and generate JWT token"},
+    {vsn, "1.0.0"},
+    {modules, []},
+    {registered, [couch_jwt_token]},
+    {applications, [kernel, stdlib, jsx, erlsha2, ejwt]},
+    {env, []}
+]}.
